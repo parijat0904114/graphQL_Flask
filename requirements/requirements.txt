@@ -1,5 +1,7 @@
 aniso8601==9.0.1
+anyio==3.5.0
 apturl==0.5.2
+ariadne==0.14.1
 attrs==20.3.0
 bcrypt==3.1.7
 blinker==1.4
@@ -23,10 +25,13 @@ docopt==0.6.2
 duplicity==0.8.20
 fasteners==0.14.1
 Flask==2.0.3
+Flask-Cors==3.0.10
+Flask-SQLAlchemy==2.5.1
 future==0.18.2
 graphene==3.0
 graphql-core==3.1.7
 graphql-relay==3.1.5
+greenlet==1.1.2
 httplib2==0.18.1
 idna==2.10
 importlib-metadata==4.0.1
@@ -73,8 +78,12 @@ requests==2.25.1
 SecretStorage==3.3.1
 simplejson==3.17.2
 six==1.16.0
+sniffio==1.2.0
+SQLAlchemy==1.4.32
+starlette==0.17.1
 systemd-python==234
 texttable==1.6.3
+typing-extensions==4.1.1
 ubuntu-advantage-tools==27.4
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
